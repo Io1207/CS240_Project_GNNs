@@ -5,9 +5,18 @@
 In this project, we focussed on implementing a GAT and a GCN on the Cora research paper dataset to perform field classification tasks.
 <ol>
   <li>
-    <b>Graph Convolutional Networks</b>- Introduced in 2017, GCNs adapt the concept of convolution to graph data. In a simplified view, a GCN layer updates a node's representation by taking a weighted average of its own features and the features of its neighbors.
+    <b>Graph Convolutional Networks</b>- Introduced in 2017, GCNs adapt the concept of convolution to graph data. In a simplified view, a GCN layer updates a node's representation by taking a weighted average of its own features and the features of its neighbors. 
   </li>
   <li>
     <b>Graph Attention Networks</b>- Introduced in 2018, GATs introduce an attention mechanism to the neighborhood aggregation process. Instead of treating all neighbors equally, GAT layers learn to assign different importance weights to the neighbors of a node.
   </li>
   </ol>
+
+---
+
+A streamlit compatible demonstration for both GAT and GCN is available in the respective folders, use 
+```sh
+streamlit run appGCN.py
+streamlit run AppGat.py
+```
+in respective folders for GCN and GAT
